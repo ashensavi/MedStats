@@ -82,6 +82,77 @@
           <input type="text" class="form-control" id="MedicationsInput" placeholder="Medications">
         </div>
       </div>
+      
+      <div class="form-group row">
+        <label for="waterintake" class="col-sm-2 col-form-label">Water Intake per Day:</label>
+        <div class="col-sm-15" style="margin-left: 15px;">
+        <select name="waterintake" id="WaterIntakeInput" class="form-control" id="WaterIntakeInput">
+          <option value="volvo">Less than 1 litre</option>
+          <option value="saab">1-2 Litres</option>
+          <option value="opel">2-3 Litres</option>
+          <option value="audi">More than 3 Litres</option>
+        </select>
+      </div>
+      </div>
+
+      <p class="h4 fw-medium mb-2">  Activity Level
+      </p>
+      <div class="row mb-2">
+        <div class="col">
+            <label class="btn btn-outline-primary text-start d-block text-dark border-light-grey mb-1" style="padding-left: 10px; width: 50%;" for="Sedentary">
+                <div>
+                    <strong>Sedentary</strong>
+                    <br/>
+                    <span class="small fw-normal">
+                        No formal exercise and not physically active in daily life
+                    </span>
+                </div>
+            </label>
+    
+            <label class="btn btn-outline-primary text-start d-block text-dark border-light-grey mb-1" style="padding-left: 10px; width: 50%;" for="Lightly Active">
+                <div>
+                    <strong>Lightly Active</strong>
+                    <br/>
+                    <span class="small fw-normal">
+                        Light exercise 1-3 days per week
+                    </span>
+                </div>
+            </label>
+    
+            <label class="btn btn-outline-primary text-start d-block text-dark border-light-grey mb-1" style="padding-left: 10px; width: 50%;" for="Active">
+                <div>
+                    <strong>Active</strong>
+                    <br/>
+                    <span class="small fw-normal">
+                        Exercise 4-5 times per week
+                    </span>
+                </div>
+            </label>
+    
+            <label class="btn btn-outline-primary text-start d-block text-dark border-light-grey mb-1" style="padding-left: 10px; width: 50%;" for="Very Active">
+                <div>
+                    <strong>Very Active</strong>
+                    <br/>
+                    <span class="small fw-normal">
+                        Exercise daily, or strenuous exercise 3-4 days per week
+                    </span>
+                </div>
+            </label>
+    
+            <label class="btn btn-outline-primary text-start d-block text-dark border-light-grey mb-1" style="padding-left: 10px; width: 50%;" for="Extremely Active">
+                <div>
+                    <strong>Extremely Active</strong>
+                    <br/>
+                    <span class="small fw-normal">
+                        Strenuous exercise 6-7 days per week, or physical labour
+                    </span>
+                </div>
+            </label>
+        </div>
+    </div>
+    
+    
+
       <button type="button" class="btn text-light btn-large btn-block" style="background-color: #b40c57;"
         id="add-record-btn">Add Your Record</button>
     </form>
